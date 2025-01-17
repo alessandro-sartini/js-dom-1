@@ -16,14 +16,14 @@ let btnLamp = document.getElementById("btn-lamp");
 btnLamp.addEventListener("click", onOff )
 
 function onOff() {
-    
+
     if (btnLamp.innerHTML.includes("Accendi")) {
         
         imgPicture.src = "./img-5/yellow_lamp.png";
         btnLamp.innerHTML="Spegni"
     } else {
-        imgPicture.src = "./img-5/white_lamp.png"; // Cambia immagine a lampadina spenta
-        btnLamp.innerHTML = "Accendi"; // Cambia il testo del bottone
+        imgPicture.src = "./img-5/white_lamp.png"; 
+        btnLamp.innerHTML = "Accendi"; 
     }
 
 }
